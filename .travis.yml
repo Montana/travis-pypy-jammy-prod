@@ -4,6 +4,7 @@ python: pypy3.9-7.3.9
 script: 
   - python -V
   - python --version 
+  - pypy --version
 
 install: true
 
