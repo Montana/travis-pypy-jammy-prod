@@ -1,0 +1,12 @@
+os: linux
+language: python
+python: pypy3.9-7.3.9
+script: python -V
+
+install: true
+
+jobs:
+  include:
+    - dist: bionic
+    - dist: focal
+    - dist: jammy
