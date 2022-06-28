@@ -1,6 +1,6 @@
 os: linux
 language: python
-python: pypy
+python: pypy3.9-7.3.9
 script: 
   - python -V
   - python --version 
